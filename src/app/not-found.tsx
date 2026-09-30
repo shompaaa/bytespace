@@ -15,7 +15,7 @@ export default function NotFound() {
           {/* Lime-to-transparent numerals sit behind the heading, as in Figma */}
           <p
             aria-hidden
-            className="-z-20 -mb-[8vw] bg-linear-to-b from-electric-lime-400 via-electric-lime-400/80 to-transparent bg-clip-text font-heading text-[40vw] leading-none font-semibold tracking-[-0.01em] text-transparent lg:-mb-29.75 lg:text-display-404"
+            className="-z-20 mb-[8vw] bg-linear-to-b from-electric-lime-400 via-electric-lime-400/80 to-transparent bg-clip-text font-heading text-[40vw] leading-none font-semibold tracking-[-0.01em] text-transparent lg:-mb-29.75 lg:text-display-404"
           >
             404
           </p>
