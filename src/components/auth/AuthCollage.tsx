@@ -11,23 +11,23 @@ import { cn } from "@/lib/utils";
  */
 export function AuthCollage({ mode }: { mode: AuthMode }) {
   return (
-    <div aria-hidden className="relative mt-2 hidden h-[40.5rem] w-[43.625rem] max-w-full xl:block">
-      <CourseCard course={courses[1]} moreTone="dark" className="pointer-events-none absolute top-[10.5rem] left-0" />
+    <div aria-hidden className="relative mt-2 hidden h-162 w-174.5 max-w-full xl:block">
+      <CourseCard course={courses[1]} moreTone="dark" className="pointer-events-none absolute top-42 left-0" />
       <CourseCard
         course={courses[2]}
         moreTone="dark"
-        className="pointer-events-none absolute top-[4.9375rem] left-[6.9375rem]"
+        className="pointer-events-none absolute top-19.75 left-27.75"
       />
-      <HappyStudentsCard lime compact className="absolute top-[32.5rem] left-[14.125rem]" />
+      <HappyStudentsCard lime compact className="absolute top-130 left-56.5" />
       <Ornament
         shape="coil"
         tint="white"
         size={175}
         flip
-        className={cn("top-[25.25rem]", mode === "register" ? "left-[32.6875rem]" : "left-[21.75rem]")}
+        className={cn("top-101", mode === "register" ? "left-130.75" : "left-87")}
       />
-      <Ornament shape="torus" tint="lime" size={146} className="top-[4.375rem] left-[1.8125rem]" />
-      <Ornament shape="pyramid" tint="lime" size={188} className="top-[28.625rem] left-[-1.5625rem]" />
+      <Ornament shape="torus" tint="lime" size={146} className="top-17.5 left-7.25" />
+      <Ornament shape="pyramid" tint="lime" size={188} className="top-114.5 -left-6.25" />
     </div>
   );
 }
